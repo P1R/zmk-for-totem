@@ -164,10 +164,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q  &kp W  &kp E       &kp R            &kp T      &kp Y    &kp U        &kp I            &kp O    &kp P
-            &kp A  &kp S  &mt LALT D  &mt LCTRL F      &kp G      &kp H    &mt RCTRL J  &mt RIGHT_ALT K  &kp L    &kp SEMICOLON
-&kp LSHIFT  &kp Z  &kp X  &kp C       &kp V            &kp B      &kp N    &kp M        &kp COMMA        &kp DOT  &kp FSLH       &kp RSHFT
-                          &mo 3       &mt RGUI ESCAPE  &kp RET    &kp TAB  &lt 1 SPACE  &lt 2 BACKSPACE
+            &kp Q  &kp W           &kp E             &kp R           &kp T            &kp Y         &kp U            &kp I            &kp O              &kp P
+            &kp A  &kp S           &kp D             &kp F           &kp G            &kp H         &kp J            &kp K            &kp L              &kp SEMICOLON
+&kp LSHIFT  &kp Z  &mt LEFT_ALT X  &mt LCTRL C       &mt LEFT_GUI V  &kp B            &kp N         &mt RIGHT_GUI M  &mt RCTRL COMMA  &mt RIGHT_ALT DOT  &kp FSLH       &kp RSHFT
+                                   &mt LEFT_ALT ESC  &kp RETURN      &mt LCTRL TAB    &kp LEFT_GUI  &lt 1 SPACE      &lt 2 BACKSPACE
             >;
         };
 
@@ -190,10 +190,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3          &kp NUMBER_4          &kp N5    &kp NUMBER_6  &kp N7      &kp N8            &kp N9             &kp N0
-        &kp GRAVE     &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none     &kp LEFT      &kp DOWN    &kp UP            &kp RIGHT_ARROW    &kp SQT
-&trans  &none         &none            &kp HOME              &kp END               &none     &kp MINUS     &kp EQUAL   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none    &trans
-                                       &trans                &trans                &trans    &mo 3         &kp RSHIFT  &trans
+                &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3          &kp NUMBER_4          &kp N5    &kp NUMBER_6  &kp N7     &kp N8            &kp N9             &kp N0
+                &kp GRAVE     &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none     &kp LEFT      &kp DOWN   &kp UP            &kp RIGHT_ARROW    &kp SQT
+&kp LEFT_SHIFT  &none         &none            &kp HOME              &kp END               &none     &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RSHFT
+                                               &trans                &trans                &trans    &mo 3         &trans     &trans
             >;
         };
 
