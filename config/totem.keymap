@@ -129,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q       &kp W       &kp E        &kp R        &kp T        &kp Y     &kp U            &kp I        &kp O       &kp P
-           &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H     &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SEMICOLON
-&kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp N     &kp M            &kp COMMA    &kp DOT     &kp FSLH            &kp ENTER
-                                   &kp TAB      &lt 1 SPACE  &kp LSHFT    &kp RWIN  &lt 2 BACKSPACE  &mo 3
+            &kp Q  &kp W  &kp E       &kp R            &kp T      &kp Y    &kp U        &kp I            &kp O    &kp P
+            &kp A  &kp S  &mt LALT D  &mt LCTRL F      &kp G      &kp H    &mt RCTRL J  &mt RIGHT_ALT K  &kp L    &kp SEMICOLON
+&kp LSHIFT  &kp Z  &kp X  &kp C       &kp V            &kp B      &kp N    &kp M        &kp COMMA        &kp DOT  &kp FSLH       &kp RSHFT
+                          &mo 3       &mt RGUI ESCAPE  &kp RET    &kp TAB  &lt 1 SPACE  &lt 2 BACKSPACE
             >;
         };
 
@@ -184,7 +184,7 @@
                 &kp ESC   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp CARET     &kp PAGE_UP   &kp UP_ARROW  &kp PAGE_DOWN  &none
                 &kp CAPS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AT_SIGN        &kp C_MUTE    &kp LEFT      &kp DOWN      &kp RIGHT      &none
 &kp KP_NUMLOCK  &kp DEL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_4  &kp KP_DOT         &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT     &none  &trans
-                                           &trans           &gif             &mo 3              &kp SPACE        &kp C_PP      &trans
+                                           &trans           &gif             &mo 3              &kp SPACE     &kp C_PP      &trans
             >;
         };
 
@@ -211,6 +211,15 @@
         &bootloader  &bt BT_NXT  &bt BT_CLR_ALL  &trans        &trans          &trans  &kp F4  &kp F5  &kp F6  &kp F11
 &trans  &trans       &bt BT_PRV  &trans          &trans        &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                  &trans          &trans        &trans          &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
