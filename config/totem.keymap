@@ -169,10 +169,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q  &kp W           &kp E             &kp R           &kp T          &kp Y          &kp U               &kp I            &kp O              &kp P
-            &kp A  &kp S           &kp D             &kp F           &kp G          &kp H          &kp J               &kp K            &kp L              &kp SEMICOLON
-&kp LSHIFT  &kp Z  &mt LEFT_ALT X  &mt LCTRL C       &mt LEFT_GUI V  &kp B          &kp N          &mt RIGHT_GUI M     &mt RCTRL COMMA  &mt RIGHT_ALT DOT  &kp FSLH       &kp RSHFT
-                                   &mt LEFT_ALT DEL  &lt 1 ESC       &lt 3 ENTER    &mt LCTRL TAB  &mt LEFT_GUI SPACE  &lt 2 BACKSPACE
+            &kp Q           &kp W        &kp E             &kp R             &kp T         &kp Y          &kp U               &kp I                &kp O          &kp P
+            &kp A           &kp S        &kp D             &kp F             &kp G         &kp H          &kp J               &kp K                &kp L          &kp SEMICOLON
+&kp LSHIFT  &mt LEFT_ALT Z  &mt LCTRL X  &mt LEFT_GUI C    &mt LEFT_SHIFT V  &kp B         &kp N          &mt RIGHT_SHIFT M   &mt RIGHT_GUI COMMA  &mt RCTRL DOT  &mt RIGHT_ALT SLASH  &kp RSHFT
+                                         &mt LEFT_ALT DEL  &lt 1 ESC         &kp RETURN    &mt LCTRL TAB  &mt LEFT_GUI SPACE  &lt 2 BACKSPACE
             >;
         };
 
@@ -198,7 +198,7 @@
                 &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3          &kp NUMBER_4          &kp N5    &kp NUMBER_6  &kp N7     &kp N8            &kp N9             &kp N0
                 &kp GRAVE     &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none     &kp LEFT      &kp DOWN   &kp UP            &kp RIGHT_ARROW    &kp SQT
 &kp LEFT_SHIFT  &none         &none            &kp HOME              &kp END               &none     &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RSHFT
-                                               &trans                &trans                &trans    &trans        &trans     &trans
+                                               &trans                &trans                &trans    &mo 3         &trans     &trans
             >;
         };
 
@@ -224,7 +224,7 @@
                 &kp F1   &kp F2   &kp F3       &kp F4         &kp F5    &kp F6          &kp F7        &kp F8        &kp F9      &kp F10
                 &kp F11  &kp F12  &kp PAGE_UP  &kp PAGE_DOWN  &none     &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &kp INSERT  &kp DELETE
 &kp LEFT_SHIFT  &kp DEL  &none    &none        &none          &none     &kp C_PREVIOUS  &kp C_MUTE    &kp C_PP      &kp C_NEXT  &none       &kp RIGHT_SHIFT
-                                  &trans       &gif           &trans    &kp SPACE       &kp C_PP      &trans
+                                  &trans       &gif           &mo 3     &trans          &kp SPACE     &trans
             >;
         };
 
