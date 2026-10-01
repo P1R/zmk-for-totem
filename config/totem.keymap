@@ -78,43 +78,43 @@
         };
 
         c10 {
-             bindings = <&kp PLUS>;
-             key-positions = <17 18>;
+            bindings = <&kp PLUS>;
+            key-positions = <17 18>;
         };
 
         c11 {
-             bindings = <&kp KP_MINUS>;
-             key-positions = <12 11>;
+            bindings = <&kp KP_MINUS>;
+            key-positions = <12 11>;
         };
 
         c12 {
-             bindings = <&kp UNDER>;
-             key-positions = <2 1>;
+            bindings = <&kp UNDER>;
+            key-positions = <2 1>;
         };
 
         c13 {
-             bindings = <&kp KP_EQUAL>;
-             key-positions = <7 8>;
+            bindings = <&kp KP_EQUAL>;
+            key-positions = <7 8>;
         };
 
         c14 {
-             bindings = <&kp COLON>;
-             key-positions = <11 10>;
+            bindings = <&kp COLON>;
+            key-positions = <11 10>;
         };
 
         c15 {
-             bindings = <&kp SQT>;
-             key-positions = <4 3>;
+            bindings = <&kp SQT>;
+            key-positions = <4 3>;
         };
 
         c16 {
-             bindings = <&kp DQT>;
-             key-positions = <5 6>;
+            bindings = <&kp DQT>;
+            key-positions = <5 6>;
         };
 
         c17 {
-             bindings = <&caps_word>;
-             key-positions = <16 13>;
+            bindings = <&caps_word>;
+            key-positions = <16 13>;
         };
     };
 
@@ -140,6 +140,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HM";
             bindings = <&none>, <&none>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
@@ -162,20 +163,20 @@
         nav_layer {
             label = "NAVI";
             bindings = <
-               &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3          &kp NUMBER_4          &kp N5    &kp NUMBER_6  &kp N7     &kp N8            &kp N9             &kp N0
-               &kp GRAVE     &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none     &kp LEFT      &kp DOWN   &kp UP            &kp RIGHT_ARROW    &kp SQT
-&kp BACKSPACE  &none         &none            &kp HOME              &kp END               &none     &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp DELETE
-                                              &trans                &trans                &trans    &none         &trans     &trans
+               &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3          &kp NUMBER_4          &kp N5       &kp NUMBER_6  &kp N7           &kp N8                      &kp N9                   &kp N0
+               &kp GRAVE     &kp PRINTSCREEN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp END      &kp LEFT      &kp DOWN         &kp UP                      &kp RIGHT_ARROW          &kp SQT
+&kp BACKSPACE  &kp LEFT_ALT  &kp LCTRL        &mt LEFT_GUI HOME     &kp LEFT_SHIFT        &kp MINUS    &kp EQUAL     &kp RIGHT_SHIFT  &mt RIGHT_GUI LEFT_BRACKET  &mt RCTRL RIGHT_BRACKET  &mt RIGHT_ALT BACKSLASH  &kp DELETE
+                                              &trans                &trans                &trans       &none         &trans           &trans
             >;
         };
 
         sim_layer {
             label = "SYM";
             bindings = <
-               &kp F1   &kp F2   &kp F3       &kp F4         &kp F5    &kp F6          &kp F7        &kp F8        &kp F9      &kp F10
-               &kp F11  &kp F12  &kp PAGE_UP  &kp PAGE_DOWN  &none     &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &kp INSERT  &none
-&kp BACKSPACE  &none    &none    &none        &none          &none     &kp C_PREVIOUS  &kp C_MUTE    &kp C_PP      &kp C_NEXT  &none    &kp DELETE
-                                 &trans       &gif           &none     &trans          &kp SPACE     &trans
+               &kp F1        &kp F2     &kp F3        &kp F4          &kp F5    &kp F6          &kp F7           &kp F8        &kp F9      &kp F10
+               &kp F11       &kp F12    &kp PAGE_UP   &kp PAGE_DOWN   &none     &kp C_MUTE      &kp C_VOL_DN     &kp C_VOL_UP  &kp INSERT  &none
+&kp BACKSPACE  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none     &kp C_PREVIOUS  &kp RIGHT_SHIFT  &kp C_PP      &kp C_NEXT  &kp RIGHT_ALT  &kp DELETE
+                                        &trans        &gif            &none     &trans          &kp SPACE        &trans
             >;
         };
 
@@ -188,6 +189,5 @@
                                  &trans          &trans        &trans           &trans           &trans     &trans
             >;
         };
-
     };
 };
